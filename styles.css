@@ -1,11 +1,28 @@
+/* Main Content*/
+
 body {
-    background-color: rgb(206, 24, 206);
+    background-color: rgb(241, 191, 241);
+    max-width: fit-content;
+    margin: auto;
 }
 
 /*
 div {}
 */
 
-table, th, td {
-    border: 1px solid black;
+.main_list {
+    max-width: fit-content;
+    margin: auto;
+}
+
+table, th, td, tr {
+    border: 3px solid black;
+    padding: 3px;
+    font-size: 18px;
+}
+
+/*Headings*/
+h1, h2, h3, h4 {
+    margin: auto;
+    padding: 3px;
 }
