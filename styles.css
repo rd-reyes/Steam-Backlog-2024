@@ -2,24 +2,42 @@
 
 body {
     background-color: rgb(241, 191, 241);
-    max-width: fit-content;
-    margin: auto;
+    height: 100dvh;
+    margin: 1em;
 }
 
 /*
 div {}
 */
+.main_title {
+    margin: auto;
+    border-radius: 25px;
+    background-color: rgb(209, 137, 243);
+    border: 3px solid rgb(0, 0, 0);
+    width: 40%;
+}
 
 .main_list {
     max-width: fit-content;
     margin: auto;
 }
 
-table, th, td, tr {
+table, th, tr {
     border: 3px solid black;
-    padding: 3px;
+    padding-inline: 3px;
     font-size: 18px;
 }
+
+table {
+    background-color: rgb(209, 137, 243);
+}
+
+th {
+    background-color: rgb(145, 248, 222);
+    padding: 1px;
+    border-radius: 25px;
+}
+
 
 /*Headings*/
 h1, h2, h3, h4 {
